@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Registration form</h1>
+
+<form action="/set_cookie/" method="post">
+    <label for="username">Enter your name</label>
+    <input type="text" name="username" id="username" required>
+    <br>
+    <label for="email">Enter your email</label>
+    <input type="text" name="email" id="email" required>
+    <br>
+    <input type="submit" value="Enter name and email">
+</form>
+<!--<form action="https://google.com">-->
+<!--    <input type="submit" value="Go to Google" />-->
+<!--</form>-->
+
+{%endblock%}

@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<p>Welcome, {{username}}!</p>
+<form action="{{url_for('delete_cookies')}}">
+    <input type="submit" value="Exit" />
+</form>
+
+{%endblock%}

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Calculation page</h1>
+
+<form action="/calculate/" method="post">
+  <label for="num1">Enter the firsts num</label>
+  <input type="text" name="num1" id="num1" required>
+  <br>
+  <label for="num2">Enter the second num</label>
+  <input type="text" name="num2" id="num2" required>
+  <br>
+  <label for="calculateAction">Enter calculation action</label>
+  <input type="text" name="calculateAction" id="calculateAction" required>
+  <br>
+  <input type="submit" value="Calculate!">
+
+</form>
+
+{%endblock%}

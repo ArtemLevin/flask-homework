@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Age verifivation page</h1>
+
+<form action="/age_verification/" method="post">
+  <label for="name">Enter your name</label>
+  <input type="text" name="name" id="name" required>
+  <br>
+  <label for="age">Enter your age</label>
+  <input type="text" name="age" id="age" required>
+  <br>
+  <input type="submit" value="Verificate!">
+
+</form>
+
+{%endblock%}
