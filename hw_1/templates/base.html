@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">-->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <title>My Shop</title>
+</head>
+<body>
+    <div class="container">
+        <a href="http://127.0.0.1:5000/" class="navigation_link" style="font-size:100">Главная</a>
+        <a href="http://127.0.0.1:5000/clothes" class="navigation_link">Одежда</a>
+        <a href="http://127.0.0.1:5000/shoes" class="navigation_link">Обувь</a>
+        <a href="http://127.0.0.1:5000/jacket" class="navigation_link">Куртец</a>
+    </div>
+
+    <div class="top_header">
+        <h>Магазин одежды и обуви</h>
+    </div>
+
+    <div>
+        {% block content %}
+        {% endblock %}
+    </div>
+
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Molestiae, odit minus incidunt laudantium consequuntur expedita,
+            qui maxime sed temporibus cumque debitis,</p>
+    </div>
+
+    <aside>Новости магазина</aside>
+
+    <div class="footer">
+        <div class="footer_contacts">
+            <a href="telegram.org" class="telegram_contact"><img src=""></a>
+            <a href="vk.ru" class="vk_contact"><img src=""></a>
+        </div>
+    </div>
+</body>
+</html>
