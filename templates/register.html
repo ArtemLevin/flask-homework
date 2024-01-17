@@ -2,7 +2,7 @@
 
 {% block content %}
 <h1>Login</h1>
-<form method="POST" action="{{ url_for('register') }}">
+<form method="POST" action="{{ url_for('/') }}">
     {{form.csrf_token}}
     {% for field in form if field.name != 'csrf_token' %}
     <p>
@@ -11,7 +11,7 @@
         {% if field.errors %}
     <ul class="alert alert-danger">
         {% for error in field.errors %}
-        <li>{{ erroe }}</li>
+        <li>{{ error }}</li>
         {%endfor %}
     </ul>
     {% endif %}
