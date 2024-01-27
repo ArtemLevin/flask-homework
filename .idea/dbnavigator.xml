@@ -12,7 +12,7 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="200c4285-3b7e-48d0-aac5-5f013197b091">
+    <connection id="eff7655c-4fc1-4416-ac86-bbdde39180ae">
       <console name="Connection" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
@@ -42,7 +42,7 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="200c4285-3b7e-48d0-aac5-5f013197b091" active="true" signed="true">
+      <connection id="eff7655c-4fc1-4416-ac86-bbdde39180ae" active="true" signed="true">
         <database>
           <name value="Connection" />
           <description value="" />
@@ -59,7 +59,7 @@
           <tns-folder value="" />
           <tns-profile value="" />
           <files>
-            <file path="C:\Users\PC\Desktop\flask-homework\shop.db" schema="main" />
+            <file path="C:\Users\PC\Desktop\flask-homework\my_shop.db" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />
